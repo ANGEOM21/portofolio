@@ -4,7 +4,7 @@ import profile from "@/images/profile.jpg";
 const Hero = () => (
   <section
     id="home"
-    className="hero min-h-[90vh] bg-gradient-to-br from-accent/20 to-base-300/50 relative overflow-hidden"
+    className="hero min-h-screen bg-gradient-to-br from-accent/20 to-base-300/50 relative overflow-hidden"
   >
     {/* Background decorative blobs */}
     <div className="absolute inset-0 overflow-hidden">

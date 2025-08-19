@@ -1,13 +1,9 @@
-/**
- * This file is not strictly necessary when using the Tailwind CDN script,
- * as configuration can be done in a <script> tag in index.html.
- * However, it is included as it represents the standard configuration
- * for a project using Tailwind CSS and DaisyUI with a build tool like Vite.
- */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
-    "./index.tsx"
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}', // kalau kamu taruh di luar src
   ],
   theme: {
     extend: {

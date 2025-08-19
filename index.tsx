@@ -7,6 +7,7 @@ import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Sertifikasi from '@/components/Sertifikasi';
+import './index.css';
 
 // --- Main App ---
 const App = () => {
